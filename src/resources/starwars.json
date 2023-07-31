@@ -1,0 +1,58 @@
+[
+  {
+    "S_No": 1,
+    "Character": "Rey Skywalker",
+    "Description": "Jedi",
+    "BFF": "Finn",
+    "Weapon": "Lightsaber"
+  },
+  {
+    "S_No": 2,
+    "Character": "Master Yoda",
+    "Description": "Jedi",
+    "BFF": "Mace Windu",
+    "Weapon": "The Force"
+  },
+  {
+    "S_No": 3,
+    "Character": "Han Solo",
+    "Description": "Resistance Leader",
+    "BFF": "Chewbacca",
+    "Weapon": "Blaster"
+  },
+  {
+    "S_No": 4,
+    "Character": "Darth Vader",
+    "Description": "Sith Lord",
+    "BFF": "Darth Sidious",
+    "Weapon": "Death Star"
+  },
+  {
+    "S_No": 5,
+    "Character": "Poe Dameron",
+    "Description": "Commander",
+    "BFF": "BB-8",
+    "Weapon": "X-Wing"
+  },
+  {
+    "S_No": 6,
+    "Character": "Anakin Skywalker",
+    "Description": "Jedi",
+    "BFF": "Ahsoka Tano",
+    "Weapon": "Lightsaber"
+  },
+  {
+    "S_No": 7,
+    "Character": "Din Djarin",
+    "Description": "Mandalorian",
+    "BFF": "Grogu",
+    "Weapon": "Dark Saber"
+  },
+  {
+    "S_No": 8,
+    "Character": "C3-PO",
+    "Description": "Droid",
+    "BFF": "R2D2",
+    "Weapon": "Translation Skills"
+  }
+]

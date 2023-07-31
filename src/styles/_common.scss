@@ -1,0 +1,150 @@
+// Normalization
+body,
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+// App styles
+
+.custom-toolbar {
+  height: 40px;
+  background-color: $black;
+  color: $white;
+  padding-top: 5px;
+}
+
+.title {
+  color: $white;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.k-drawer-container.k-drawer-push .k-drawer {
+}
+
+.k-drawer-item.k-selected {
+  color: $white;
+  background-color: $lightgrey !important;
+}
+
+.k-drawer-item {
+  color: $white;
+}
+
+.k-grid {
+  .k-table-thead {
+    background-color: $link-color;
+    color: $black;
+    height: 10px;
+
+    .k-table-row {
+      background-color: $link-color;
+      color: $black;
+      height: 10px;
+    }
+  }
+}
+
+.k-chart {
+  height: 400px;
+  width: 800px;
+  margin-left: 20%;
+}
+
+.titleh2 {
+  color: $linkcolor !important;
+}
+
+.linkclr {
+  color: $link-color !important;
+}
+
+.k-tabstrip-items {
+  color: $white !important;
+  margin: 0 !important;
+  padding-block: 0.9rem !important;
+  padding-inline: 5rem !important;
+
+  .k-link {
+    text-align: center;
+    background-color: $lightgrey !important;
+    color: $white !important;
+    margin-top: 0;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: Metric, Helvetica, Arial, sans-serif;
+    padding-block: 0.9rem !important;
+    padding-inline: 5rem !important;
+  }
+}
+
+.k-drawer-container {
+  background-color: $background-color;
+  color: $white;
+
+  .k-drawer {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-right-width: 0 !important;
+    background-color: $darkgrey !important;
+    color: $white;
+  }
+
+  &.k-drawer-push .k-drawer {
+    position: sticky;
+    height: calc(100vh - 80px);
+  }
+
+  .k-drawer-item {
+    user-select: none;
+    color: $white;
+  }
+}
+
+.card-container {
+  background-color: $white;
+  padding: 40px 0;
+  text-align: center;
+
+  &.grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    column-gap: 10px;
+    row-gap: 1em;
+  }
+
+  .card-title {
+  }
+
+  .card-buttons {
+    .k-button {
+      min-width: 105px;
+    }
+  }
+
+  .card-ranges {
+    .k-daterangepicker {
+      .k-textbox-container,
+      .k-floating-label-container {
+        padding-top: 0;
+        min-width: 105px;
+      }
+
+      .k-label {
+        display: none;
+      }
+    }
+  }
+
+  .card-component {
+    grid-column: 1 / -1;
+    overflow: hidden;
+  }
+}
