@@ -1,4 +1,8 @@
-# Getting Started with Create React App
+# MUI Kendo React
+This is a sample React JS & Sass web application which explores the UI features offered by Kendo React and Material UI. 
+
+Sign up to the 30 day free trial of Kendo React here -> https://www.telerik.com/kendo-react-ui
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
